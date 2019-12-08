@@ -1,0 +1,22 @@
+{
+    "traits":[
+     {"name": "hedonist", "stat":"diplomacy"},
+     {"name": "gardener", "stat":"stewardship"},
+     {"name": "zealous", "stat":"learning"},
+     {"name": "ambitious", "stat":"intrigue"},
+     {"name": "gamer", "stat":"diplomacy"},
+     {"name": "administrator", "stat":"stewardship"},
+     {"name": "architect", "stat":"stewardship"},
+     {"name": "duelist", "stat":"martial"},
+     {"name": "hunter", "stat":"martial"},
+     {"name": "impaler", "stat":"martial"},
+     {"name": "schemer", "stat":"intrigue"},
+     {"name": "seducer", "stat":"intrigue"},
+     {"name": "seductress", "stat":"intrigue"},
+     {"name": "mystic", "stat":"learning"},
+     {"name": "scholar", "stat":"learning"},
+     {"name": "socializer", "stat":"diplomacy"},
+     {"name": "strategist", "stat":"martial"},
+     {"name": "theologian", "stat":"learning"},
+    ]
+  }

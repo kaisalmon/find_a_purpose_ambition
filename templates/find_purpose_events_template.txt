@@ -1,0 +1,255 @@
+namespace = find_p
+character_event = {
+	id = find_p.001
+  desc = {
+    trigger = {
+      ROOT = {
+        is_female = yes
+      }
+    }
+    picture = GFX_evt_woman_at_window_hf
+		text = EVT_FINDP_001_DESC
+  }
+  desc = {
+		trigger = {
+			ROOT = {
+				is_female = no
+			}
+		}
+  	picture = GFX_evt_pleasing_letter
+		text = EVT_FINDP_001_DESC
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	trigger = {
+    has_ambition = obj_find_purpose
+		NOT = { is_inaccessible_trigger = yes }
+	}
+
+	option = {
+    name = EVT_FINDP_001_OPT1
+		trigger = {
+			any_friend = {
+				OR = {
+					lifestyle_traits = 1
+					trait = zealous
+					trait = ambitious
+				}
+			}
+		}
+		random_friend = {
+			limit = {
+				OR = {
+					lifestyle_traits = 1
+					trait = zealous
+					trait = ambitious
+				}
+			}
+			{{#traits}}
+			if = {
+				limit = {trait = {{name}} }
+				show_trait = {{name}}
+			}
+			{{/traits}}
+			if = {
+				limit = {trait = zealous}
+				show_trait = zealous
+			}
+			random_list = {
+				5 = {
+					ROOT = {add_trait = stressed}
+				}
+				5 = {
+					ROOT = {add_trait = depressed}
+				}
+				{{#traits}}
+					10 = {
+					  trigger = {trait = {{name}} }
+						custom_tooltip = {
+							text = EVT_FINDP_FOUND
+						}
+						hidden_tooltip = {
+							ROOT = {add_trait = {{name}} }
+						}
+					}
+				 {{/traits}}
+			}
+		}
+	}
+
+  option = {
+    name = EVT_FINDP_001_OPT2
+    random_list = {
+      1 = {
+        trigger = {
+      			NOR = {
+              has_focus = focus_war
+              has_focus = focus_hunting
+            }
+        }
+        set_focus = focus_war
+      }
+      1 = {
+        trigger = {
+            NOR = {
+              has_focus = focus_war
+              has_focus = focus_hunting
+            }
+        }
+        set_focus = focus_hunting
+      }
+      1 = {
+        trigger = {
+            NOR = {
+              has_focus = focus_rulership
+              has_focus = focus_business
+            }
+        }
+        set_focus = focus_rulership
+      }
+      1 = {
+        trigger = {
+            NOR = {
+              has_focus = focus_rulership
+              has_focus = focus_business
+            }
+        }
+        set_focus = focus_business
+      }
+      1 = {
+        trigger = {
+            NOR = {
+              has_focus = focus_seduction
+              has_focus = focus_intrigue
+            }
+        }
+        set_focus = focus_seduction
+      }
+      1 = {
+        trigger = {
+            NOR = {
+              has_focus = focus_seduction
+              has_focus = focus_intrigue
+            }
+        }
+        set_focus = focus_intrigue
+      }
+      1 = {
+        trigger = {
+            NOR = {
+              has_focus = focus_carousing
+              has_focus = focus_family
+            }
+        }
+        set_focus = focus_carousing
+      }
+      1 = {
+        trigger = {
+            NOR = {
+              has_focus = focus_carousing
+              has_focus = focus_family
+            }
+        }
+        set_focus = focus_family
+      }
+      1 = {
+        trigger = {
+            NOR = {
+              has_focus = focus_scholarship
+              has_focus = focus_theology
+            }
+        }
+        set_focus = focus_scholarship
+      }
+      1 = {
+        trigger = {
+            NOR = {
+              has_focus = focus_scholarship
+              has_focus = focus_theology
+            }
+        }
+        set_focus = focus_theology
+      }
+    }
+	}
+
+  option = {
+    name = EVT_FINDP_001_OPT3
+    random = {
+      chance = 20
+      add_trait = stressed
+    }
+    random = {
+      chance = 3
+      add_trait = depressed
+    }
+  }
+}
+
+{{#each traits}}
+	character_event = {
+			id = find_p.80{{@index}}
+		  desc = {
+		    trigger = {
+		        is_female = yes
+		    }
+		    picture = GFX_evt_woman_at_window_hf
+				text = EVT_FINDP_80_DESC
+		  }
+		  desc = {
+				trigger = {
+						is_female = no
+				}
+		  	picture = GFX_evt_pleasing_letter
+				text = EVT_FINDP_80_DESC
+			}
+
+			mean_time_to_happen = {
+				months = 120
+				modifier = {
+					factor = 5.0
+					NOT = { {{stat}} = 10 }
+				}
+				modifier = {
+					factor = 0.5
+				 	{{stat}} = 12
+				}
+				modifier = {
+					factor = 0.5
+				 	{{stat}} = 18
+				}
+			}
+
+			trigger = {
+		    has_ambition = obj_find_purpose
+				NOT = { is_inaccessible_trigger = yes }
+			  {{stat}} = 7
+			}
+
+			option = {
+		    name = EVT_FINDP_80OPT_1
+				tooltip_info = {{stat}}
+				random_list = {
+					5 = {
+						add_trait = stressed
+					}
+					5 = {
+						add_trait = depressed
+					}
+					20 = {
+						modifier = {
+							factor = 4.0
+							{{stat}} = 12
+						}
+						add_trait = {{name}}
+					}
+				}
+		  }
+			option = {
+				name = EVT_FINDP_80OPT_2
+			}
+	}
+{{/each}}
