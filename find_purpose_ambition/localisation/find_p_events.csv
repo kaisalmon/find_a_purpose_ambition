@@ -1,0 +1,9 @@
+EVT_FINDP_001_DESC;I want just wish my life had some meaning;;;;;;;;;;;;;x
+EVT_FINDP_001_OPT1;Maybe a friend can help me find my place...;;;;;;;;;;;;;x
+EVT_FINDP_001_OPT2;Maybe I need a change of routine...;;;;;;;;;;;;;x
+EVT_FINDP_001_OPT3;Maybe I just need to keep soul searching...;;;;;;;;;;;;;x
+EVT_FINDP_FOUND;learning from [This.GetTitledFirstName], finding a sense of purpose;;;;;;;;;;;;;x
+
+EVT_FINDP_80_DESC;After a lot of soul searching, I might have found something that I can dedicate my life to!;;;;;;;;;;;;;x
+EVT_FINDP_80OPT_1;Maybe this is my purpose!;;;;;;;;;;;;;x
+EVT_FINDP_80OPT_2;This isn't for me;;;;;;;;;;;;;x
