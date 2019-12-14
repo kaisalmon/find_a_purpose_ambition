@@ -50,7 +50,14 @@ character_event = {
 			}
 			{{#traits}}
 			if = {
-				limit = {trait = {{name}} }
+				limit = {
+					trait = {{name}}
+					{{#if trait_triggers}}
+					ROOT = {
+						{{trait_triggers}}
+					}
+					{{/if}}
+				}
 				show_trait = {{name}}
 			}
 			{{/traits}}
@@ -67,7 +74,14 @@ character_event = {
 				}
 				{{#traits}}
 					10 = {
-					  trigger = {trait = {{name}} }
+					  trigger = {
+							trait = {{name}}
+							{{#if trait_triggers}}
+							ROOT = {
+								{{trait_triggers}}
+							}
+							{{/if}}
+						}
 						custom_tooltip = {
 							text = EVT_FINDP_FOUND
 						}
@@ -226,7 +240,8 @@ character_event = {
 			trigger = {
 		    has_ambition = obj_find_purpose
 				NOT = { is_inaccessible_trigger = yes }
-			  {{stat}} = 7
+			  {{stat}} = 6
+				{{trait_triggers}}
 			}
 
 			option = {
@@ -241,8 +256,24 @@ character_event = {
 					}
 					20 = {
 						modifier = {
-							factor = 4.0
+							factor = 0.25
+							NOT = {
+								{{stat}} = 8
+							}
+						}
+						modifier = {
+							factor = 2.0
 							{{stat}} = 12
+						}
+						modifier = {
+							factor = 4.0
+							OR={
+								{{#with (lookup ../stats stat)}}
+								{{#each focuses as |f|}}
+								has_focus = {{f}}
+								{{/each}}
+								{{/with}}
+							}
 						}
 						add_trait = {{name}}
 					}
