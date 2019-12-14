@@ -2,7 +2,7 @@ namespace = find_p
 character_event = {
   id = find_p.001
   desc =  EVT_FINDP_001_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {
@@ -482,7 +482,7 @@ character_event = {
 character_event = {
   id = find_p.800
   desc = EVT_FINDP_80_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {
@@ -556,7 +556,7 @@ character_event = {
 character_event = {
   id = find_p.801
   desc = EVT_FINDP_80_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {
@@ -630,7 +630,7 @@ character_event = {
 character_event = {
   id = find_p.802
   desc = EVT_FINDP_80_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {
@@ -704,7 +704,7 @@ character_event = {
 character_event = {
   id = find_p.803
   desc = EVT_FINDP_80_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {
@@ -778,7 +778,7 @@ character_event = {
 character_event = {
   id = find_p.804
   desc = EVT_FINDP_80_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {
@@ -852,7 +852,7 @@ character_event = {
 character_event = {
   id = find_p.805
   desc = EVT_FINDP_80_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {
@@ -926,7 +926,7 @@ character_event = {
 character_event = {
   id = find_p.806
   desc = EVT_FINDP_80_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {
@@ -1000,7 +1000,7 @@ character_event = {
 character_event = {
   id = find_p.807
   desc = EVT_FINDP_80_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {
@@ -1074,7 +1074,7 @@ character_event = {
 character_event = {
   id = find_p.808
   desc = EVT_FINDP_80_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {
@@ -1148,7 +1148,7 @@ character_event = {
 character_event = {
   id = find_p.809
   desc = EVT_FINDP_80_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {
@@ -1222,7 +1222,7 @@ character_event = {
 character_event = {
   id = find_p.8010
   desc = EVT_FINDP_80_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {
@@ -1296,7 +1296,7 @@ character_event = {
 character_event = {
   id = find_p.8011
   desc = EVT_FINDP_80_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {
@@ -1370,7 +1370,7 @@ character_event = {
 character_event = {
   id = find_p.8012
   desc = EVT_FINDP_80_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {
@@ -1444,7 +1444,7 @@ character_event = {
 character_event = {
   id = find_p.8013
   desc = EVT_FINDP_80_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {
@@ -1518,7 +1518,7 @@ character_event = {
 character_event = {
   id = find_p.8014
   desc = EVT_FINDP_80_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {
@@ -1592,7 +1592,7 @@ character_event = {
 character_event = {
   id = find_p.8015
   desc = EVT_FINDP_80_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {
@@ -1666,7 +1666,7 @@ character_event = {
 character_event = {
   id = find_p.8016
   desc = EVT_FINDP_80_DESC
-  picture = GFX_evt_pleasing_letter
+  picture = GFX_evt_bad_news
 
   desc = {
     trigger = {

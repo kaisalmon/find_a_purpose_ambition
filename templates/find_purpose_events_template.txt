@@ -2,7 +2,7 @@ namespace = find_p
 character_event = {
 	id = find_p.001
   desc =  EVT_FINDP_001_DESC
-	picture = GFX_evt_pleasing_letter
+	picture = GFX_evt_bad_news
 
   desc = {
 		trigger = {
@@ -201,7 +201,7 @@ character_event = {
 	character_event = {
 			id = find_p.80{{@index}}
 			desc = EVT_FINDP_80_DESC
-			picture = GFX_evt_pleasing_letter
+			picture = GFX_evt_bad_news
 
 			desc = {
 				trigger = {
