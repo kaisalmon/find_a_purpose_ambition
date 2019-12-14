@@ -1,27 +1,21 @@
 namespace = find_p
 character_event = {
 	id = find_p.001
-  desc = {
-    trigger = {
-      ROOT = {
-        is_female = yes
-      }
-    }
-    picture = GFX_evt_woman_at_window_hf
-		text = EVT_FINDP_001_DESC
-  }
+  desc =  EVT_FINDP_001_DESC
+	picture = GFX_evt_pleasing_letter
+
   desc = {
 		trigger = {
 			ROOT = {
-				is_female = no
+				is_female = yes
 			}
 		}
-  	picture = GFX_evt_pleasing_letter
-		text = EVT_FINDP_001_DESC
+	  text =  EVT_FINDP_001_DESC
+    picture = GFX_evt_woman_at_window_hf
 	}
 
 	mean_time_to_happen = {
-		months = 36
+		months = 42
 	}
 
 	trigger = {
@@ -206,23 +200,21 @@ character_event = {
 {{#each traits}}
 	character_event = {
 			id = find_p.80{{@index}}
-		  desc = {
-		    trigger = {
-		        is_female = yes
-		    }
-		    picture = GFX_evt_woman_at_window_hf
-				text = EVT_FINDP_80_DESC
-		  }
-		  desc = {
+			desc = EVT_FINDP_80_DESC
+			picture = GFX_evt_pleasing_letter
+
+			desc = {
 				trigger = {
-						is_female = no
+					ROOT = {
+						is_female = yes
+					}
 				}
-		  	picture = GFX_evt_pleasing_letter
-				text = EVT_FINDP_80_DESC
+			  text =  EVT_FINDP_001_DESC
+				picture = GFX_evt_woman_at_window_hf
 			}
 
 			mean_time_to_happen = {
-				months = 120
+				months = 400
 				modifier = {
 					factor = 5.0
 					NOT = { {{stat}} = 10 }

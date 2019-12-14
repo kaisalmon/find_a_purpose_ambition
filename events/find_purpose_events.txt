@@ -1,27 +1,21 @@
 namespace = find_p
 character_event = {
   id = find_p.001
+  desc =  EVT_FINDP_001_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
       ROOT = {
         is_female = yes
       }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_001_DESC
-  }
-  desc = {
-    trigger = {
-      ROOT = {
-        is_female = no
-      }
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_001_DESC
   }
 
   mean_time_to_happen = {
-    months = 36
+    months = 42
   }
 
   trigger = {
@@ -115,7 +109,7 @@ character_event = {
         limit = {
           trait = seducer
           ROOT = {
-            female = no
+            is_female  = no
           }
         }
         show_trait = seducer
@@ -124,7 +118,7 @@ character_event = {
         limit = {
           trait = seductress
           ROOT = {
-            female = yes
+            is_female  = yes
           }
         }
         show_trait = seductress
@@ -290,7 +284,7 @@ character_event = {
           trigger = {
             trait = seducer
             ROOT = {
-              female = no
+              is_female  = no
             }
           }
           custom_tooltip = {
@@ -304,7 +298,7 @@ character_event = {
           trigger = {
             trait = seductress
             ROOT = {
-              female = yes
+              is_female  = yes
             }
           }
           custom_tooltip = {
@@ -487,23 +481,21 @@ character_event = {
 
 character_event = {
   id = find_p.800
+  desc = EVT_FINDP_80_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
-      is_female = yes
+      ROOT = {
+        is_female = yes
+      }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_80_DESC
-  }
-  desc = {
-    trigger = {
-      is_female = no
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_80_DESC
   }
 
   mean_time_to_happen = {
-    months = 120
+    months = 400
     modifier = {
       factor = 5.0
       NOT = { diplomacy = 10 }
@@ -563,23 +555,21 @@ character_event = {
 }
 character_event = {
   id = find_p.801
+  desc = EVT_FINDP_80_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
-      is_female = yes
+      ROOT = {
+        is_female = yes
+      }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_80_DESC
-  }
-  desc = {
-    trigger = {
-      is_female = no
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_80_DESC
   }
 
   mean_time_to_happen = {
-    months = 120
+    months = 400
     modifier = {
       factor = 5.0
       NOT = { stewardship = 10 }
@@ -639,23 +629,21 @@ character_event = {
 }
 character_event = {
   id = find_p.802
+  desc = EVT_FINDP_80_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
-      is_female = yes
+      ROOT = {
+        is_female = yes
+      }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_80_DESC
-  }
-  desc = {
-    trigger = {
-      is_female = no
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_80_DESC
   }
 
   mean_time_to_happen = {
-    months = 120
+    months = 400
     modifier = {
       factor = 5.0
       NOT = { learning = 10 }
@@ -715,23 +703,21 @@ character_event = {
 }
 character_event = {
   id = find_p.803
+  desc = EVT_FINDP_80_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
-      is_female = yes
+      ROOT = {
+        is_female = yes
+      }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_80_DESC
-  }
-  desc = {
-    trigger = {
-      is_female = no
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_80_DESC
   }
 
   mean_time_to_happen = {
-    months = 120
+    months = 400
     modifier = {
       factor = 5.0
       NOT = { intrigue = 10 }
@@ -791,23 +777,21 @@ character_event = {
 }
 character_event = {
   id = find_p.804
+  desc = EVT_FINDP_80_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
-      is_female = yes
+      ROOT = {
+        is_female = yes
+      }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_80_DESC
-  }
-  desc = {
-    trigger = {
-      is_female = no
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_80_DESC
   }
 
   mean_time_to_happen = {
-    months = 120
+    months = 400
     modifier = {
       factor = 5.0
       NOT = { diplomacy = 10 }
@@ -867,23 +851,21 @@ character_event = {
 }
 character_event = {
   id = find_p.805
+  desc = EVT_FINDP_80_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
-      is_female = yes
+      ROOT = {
+        is_female = yes
+      }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_80_DESC
-  }
-  desc = {
-    trigger = {
-      is_female = no
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_80_DESC
   }
 
   mean_time_to_happen = {
-    months = 120
+    months = 400
     modifier = {
       factor = 5.0
       NOT = { stewardship = 10 }
@@ -943,23 +925,21 @@ character_event = {
 }
 character_event = {
   id = find_p.806
+  desc = EVT_FINDP_80_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
-      is_female = yes
+      ROOT = {
+        is_female = yes
+      }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_80_DESC
-  }
-  desc = {
-    trigger = {
-      is_female = no
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_80_DESC
   }
 
   mean_time_to_happen = {
-    months = 120
+    months = 400
     modifier = {
       factor = 5.0
       NOT = { stewardship = 10 }
@@ -1019,23 +999,21 @@ character_event = {
 }
 character_event = {
   id = find_p.807
+  desc = EVT_FINDP_80_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
-      is_female = yes
+      ROOT = {
+        is_female = yes
+      }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_80_DESC
-  }
-  desc = {
-    trigger = {
-      is_female = no
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_80_DESC
   }
 
   mean_time_to_happen = {
-    months = 120
+    months = 400
     modifier = {
       factor = 5.0
       NOT = { martial = 10 }
@@ -1095,23 +1073,21 @@ character_event = {
 }
 character_event = {
   id = find_p.808
+  desc = EVT_FINDP_80_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
-      is_female = yes
+      ROOT = {
+        is_female = yes
+      }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_80_DESC
-  }
-  desc = {
-    trigger = {
-      is_female = no
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_80_DESC
   }
 
   mean_time_to_happen = {
-    months = 120
+    months = 400
     modifier = {
       factor = 5.0
       NOT = { martial = 10 }
@@ -1171,23 +1147,21 @@ character_event = {
 }
 character_event = {
   id = find_p.809
+  desc = EVT_FINDP_80_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
-      is_female = yes
+      ROOT = {
+        is_female = yes
+      }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_80_DESC
-  }
-  desc = {
-    trigger = {
-      is_female = no
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_80_DESC
   }
 
   mean_time_to_happen = {
-    months = 120
+    months = 400
     modifier = {
       factor = 5.0
       NOT = { intrigue = 10 }
@@ -1247,23 +1221,21 @@ character_event = {
 }
 character_event = {
   id = find_p.8010
+  desc = EVT_FINDP_80_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
-      is_female = yes
+      ROOT = {
+        is_female = yes
+      }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_80_DESC
-  }
-  desc = {
-    trigger = {
-      is_female = no
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_80_DESC
   }
 
   mean_time_to_happen = {
-    months = 120
+    months = 400
     modifier = {
       factor = 5.0
       NOT = { intrigue = 10 }
@@ -1282,7 +1254,7 @@ character_event = {
     has_ambition = obj_find_purpose
     NOT = { is_inaccessible_trigger = yes }
     intrigue = 6
-    female = no
+    is_female  = no
   }
 
   option = {
@@ -1323,23 +1295,21 @@ character_event = {
 }
 character_event = {
   id = find_p.8011
+  desc = EVT_FINDP_80_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
-      is_female = yes
+      ROOT = {
+        is_female = yes
+      }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_80_DESC
-  }
-  desc = {
-    trigger = {
-      is_female = no
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_80_DESC
   }
 
   mean_time_to_happen = {
-    months = 120
+    months = 400
     modifier = {
       factor = 5.0
       NOT = { intrigue = 10 }
@@ -1358,7 +1328,7 @@ character_event = {
     has_ambition = obj_find_purpose
     NOT = { is_inaccessible_trigger = yes }
     intrigue = 6
-    female = yes
+    is_female  = yes
   }
 
   option = {
@@ -1399,23 +1369,21 @@ character_event = {
 }
 character_event = {
   id = find_p.8012
+  desc = EVT_FINDP_80_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
-      is_female = yes
+      ROOT = {
+        is_female = yes
+      }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_80_DESC
-  }
-  desc = {
-    trigger = {
-      is_female = no
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_80_DESC
   }
 
   mean_time_to_happen = {
-    months = 120
+    months = 400
     modifier = {
       factor = 5.0
       NOT = { learning = 10 }
@@ -1475,23 +1443,21 @@ character_event = {
 }
 character_event = {
   id = find_p.8013
+  desc = EVT_FINDP_80_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
-      is_female = yes
+      ROOT = {
+        is_female = yes
+      }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_80_DESC
-  }
-  desc = {
-    trigger = {
-      is_female = no
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_80_DESC
   }
 
   mean_time_to_happen = {
-    months = 120
+    months = 400
     modifier = {
       factor = 5.0
       NOT = { learning = 10 }
@@ -1551,23 +1517,21 @@ character_event = {
 }
 character_event = {
   id = find_p.8014
+  desc = EVT_FINDP_80_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
-      is_female = yes
+      ROOT = {
+        is_female = yes
+      }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_80_DESC
-  }
-  desc = {
-    trigger = {
-      is_female = no
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_80_DESC
   }
 
   mean_time_to_happen = {
-    months = 120
+    months = 400
     modifier = {
       factor = 5.0
       NOT = { diplomacy = 10 }
@@ -1627,23 +1591,21 @@ character_event = {
 }
 character_event = {
   id = find_p.8015
+  desc = EVT_FINDP_80_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
-      is_female = yes
+      ROOT = {
+        is_female = yes
+      }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_80_DESC
-  }
-  desc = {
-    trigger = {
-      is_female = no
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_80_DESC
   }
 
   mean_time_to_happen = {
-    months = 120
+    months = 400
     modifier = {
       factor = 5.0
       NOT = { martial = 10 }
@@ -1703,23 +1665,21 @@ character_event = {
 }
 character_event = {
   id = find_p.8016
+  desc = EVT_FINDP_80_DESC
+  picture = GFX_evt_pleasing_letter
+
   desc = {
     trigger = {
-      is_female = yes
+      ROOT = {
+        is_female = yes
+      }
     }
+    text =  EVT_FINDP_001_DESC
     picture = GFX_evt_woman_at_window_hf
-    text = EVT_FINDP_80_DESC
-  }
-  desc = {
-    trigger = {
-      is_female = no
-    }
-    picture = GFX_evt_pleasing_letter
-    text = EVT_FINDP_80_DESC
   }
 
   mean_time_to_happen = {
-    months = 120
+    months = 400
     modifier = {
       factor = 5.0
       NOT = { learning = 10 }
