@@ -1,0 +1,9 @@
+EVT_FINDP_001_DESC;I want just wish my life had some meaning;;;;;;;;;;;;;x
+EVT_FINDP_001_OPT1;Maybe a friend can help me find my place...;;;;;;;;;;;;;x
+EVT_FINDP_001_OPT2;Maybe I need a change of routine...;;;;;;;;;;;;;x
+EVT_FINDP_001_OPT3;Maybe I just need to keep soul searching...;;;;;;;;;;;;;x
+EVT_FINDP_80OPT_2;This isn't for me;;;;;;;;;;;;;x
+{{#traits}}
+EVT_FINDP_80{{@index}}_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a {{#if noun}}{{noun}}{{/if}}{{#unless noun}}{{name}}{{/unless}} but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_80{{@index}}_OPT_1;I will try my hand at being a {{#if noun}}{{noun}}{{/if}}{{#unless noun}}{{name}}{{/unless}};;;;;;;;;;;;;x
+{{/traits}}

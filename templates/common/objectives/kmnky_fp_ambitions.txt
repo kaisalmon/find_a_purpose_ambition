@@ -1,0 +1,45 @@
+obj_find_purpose = {
+	type = character
+
+	allow = {
+		is_adult = yes
+		OR = {
+			NOT = {age = 24}
+			trait = depressed
+			trait = stressed
+		}
+		NOT = {
+			lifestyle_traits = 1
+			trait = zealous
+			trait = ambitious
+		}
+	}
+
+	chance = {
+		factor = 100
+
+		modifier = {
+			factor = 0.1
+			trait = content
+		}
+		modifier = {
+			factor = 4.0
+			trait = depressed
+		}
+		modifier = {
+			factor = 2.0
+			trait = stressed
+		}
+	}
+	success = {
+		OR = {
+			lifestyle_traits = 1
+			trait = zealous
+			trait = ambitious
+		}
+	}
+	effect = {
+		remove_trait = stressed
+		remove_trait = depressed
+	}
+}

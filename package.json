@@ -1,0 +1,23 @@
+{
+  "name": "more-ambitions-find-purpose",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaisalmon/find_a_purpose_ambition.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaisalmon/find_a_purpose_ambition/issues"
+  },
+  "homepage": "https://github.com/kaisalmon/find_a_purpose_ambition#readme",
+  "dependencies": {
+    "handlebars": "^4.5.3",
+    "js-beautify": "^1.10.2",
+    "recursive-readdir": "^2.2.2"
+  }
+}

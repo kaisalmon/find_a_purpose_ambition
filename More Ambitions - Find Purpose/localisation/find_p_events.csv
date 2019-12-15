@@ -2,8 +2,38 @@ EVT_FINDP_001_DESC;I want just wish my life had some meaning;;;;;;;;;;;;;x
 EVT_FINDP_001_OPT1;Maybe a friend can help me find my place...;;;;;;;;;;;;;x
 EVT_FINDP_001_OPT2;Maybe I need a change of routine...;;;;;;;;;;;;;x
 EVT_FINDP_001_OPT3;Maybe I just need to keep soul searching...;;;;;;;;;;;;;x
-EVT_FINDP_FOUND;learning from [This.GetTitledFirstName], finding a sense of purpose;;;;;;;;;;;;;x
-
-EVT_FINDP_80_DESC;After a lot of soul searching, I might have found something that I can dedicate my life to!;;;;;;;;;;;;;x
-EVT_FINDP_80OPT_1;Maybe this is my purpose!;;;;;;;;;;;;;x
 EVT_FINDP_80OPT_2;This isn't for me;;;;;;;;;;;;;x
+EVT_FINDP_800_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a hedonist but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_800_OPT_1;I will try my hand at being a hedonist;;;;;;;;;;;;;x
+EVT_FINDP_801_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a gardener but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_801_OPT_1;I will try my hand at being a gardener;;;;;;;;;;;;;x
+EVT_FINDP_802_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a zealot but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_802_OPT_1;I will try my hand at being a zealot;;;;;;;;;;;;;x
+EVT_FINDP_803_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a legendary ruler but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_803_OPT_1;I will try my hand at being a legendary ruler;;;;;;;;;;;;;x
+EVT_FINDP_804_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a gamer but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_804_OPT_1;I will try my hand at being a gamer;;;;;;;;;;;;;x
+EVT_FINDP_805_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a administrator but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_805_OPT_1;I will try my hand at being a administrator;;;;;;;;;;;;;x
+EVT_FINDP_806_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a architect but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_806_OPT_1;I will try my hand at being a architect;;;;;;;;;;;;;x
+EVT_FINDP_807_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a duelist but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_807_OPT_1;I will try my hand at being a duelist;;;;;;;;;;;;;x
+EVT_FINDP_808_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a hunter but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_808_OPT_1;I will try my hand at being a hunter;;;;;;;;;;;;;x
+EVT_FINDP_809_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a schemer but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_809_OPT_1;I will try my hand at being a schemer;;;;;;;;;;;;;x
+EVT_FINDP_8010_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a seducer but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_8010_OPT_1;I will try my hand at being a seducer;;;;;;;;;;;;;x
+EVT_FINDP_8011_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a seductress but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_8011_OPT_1;I will try my hand at being a seductress;;;;;;;;;;;;;x
+EVT_FINDP_8012_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a mystic but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_8012_OPT_1;I will try my hand at being a mystic;;;;;;;;;;;;;x
+EVT_FINDP_8013_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a scholar but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_8013_OPT_1;I will try my hand at being a scholar;;;;;;;;;;;;;x
+EVT_FINDP_8014_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a socializer but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_8014_OPT_1;I will try my hand at being a socializer;;;;;;;;;;;;;x
+EVT_FINDP_8015_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a strategist but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_8015_OPT_1;I will try my hand at being a strategist;;;;;;;;;;;;;x
+EVT_FINDP_8016_DESC;I've been trying hard to find something that I can dedicate my life to. I've been considering becoming a theologian but, frankly, don't know if I'm up for it;;;;;;;;;;;;;x
+EVT_FINDP_8016_OPT_1;I will try my hand at being a theologian;;;;;;;;;;;;;x
